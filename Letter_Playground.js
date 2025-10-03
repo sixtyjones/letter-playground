@@ -5,6 +5,7 @@
     - Upload TTF/OTF, randomize with seed, undo/redo, export SVG/PNG.
     - Counters (holes) render correctly via Canvas 2D + even-odd fill.
 */
+console.log('JS loaded');
 
 /* =================== Load external libs (opentype.js, FileSaver) =================== */
 function loadScript(url) {
